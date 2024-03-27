@@ -1,0 +1,52 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  width: 250px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.goal {
+  font-size: 20px;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+}
+
+.steps {
+  color: hsl(220, 15%, 55%);
+}
+
+footer {
+  color: hsl(218, 44%, 22%);
+  width: 250px;
+  text-align: center;
+}
+
+footer a {
+  color: hsl(218, 44%, 22%);
+  text-decoration: none;
+}
